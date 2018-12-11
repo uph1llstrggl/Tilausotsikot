@@ -19,6 +19,7 @@
         <Label x:Name="labelTilaispvm" Content="Tilauspvm" HorizontalAlignment="Left" Height="28" Margin="140,27,0,0" VerticalAlignment="Top" Width="103"/>
         <DatePicker x:Name="DPToimituspvm" HorizontalAlignment="Left" Height="45" Margin="140,133,0,0" VerticalAlignment="Top" Width="103"/>
         <Label x:Name="labelToimituspvm" Content="Toimituspvm" HorizontalAlignment="Left" Height="28" Margin="140,105,0,0" VerticalAlignment="Top" Width="103"/>
+        <Button x:Name="btnOUT" Content="FETCH" HorizontalAlignment="Left" VerticalAlignment="Top" Width="92" Margin="140,211,0,0" Height="45" Click="BtnOUT_Click"/>
         <Button x:Name="btnIN" Content="TALLENNA" HorizontalAlignment="Left" VerticalAlignment="Top" Width="92" Margin="140,289,0,0" Height="45" Click="BtnIN_Click"/>
         <DataGrid x:Name="dgList" HorizontalAlignment="Left" Height="122" Margin="287,211,0,0" VerticalAlignment="Top" Width="468" SelectionChanged="DataGrid_SelectionChanged" Cursor="None"/>
         <TextBox x:Name="dataTuoteid" HorizontalAlignment="Left" Height="31" Margin="287,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"/>
